@@ -1,7 +1,7 @@
 import React from "react";
-import "./../scss/components/Header.scss";
-
-const heroSection = () => {
+//import "./../scss/components/Header.scss";
+import "../../scss/components/Header.scss";
+const Hero = () => {
   return (
     <section>
       <div className="contain-part">
@@ -12,4 +12,4 @@ const heroSection = () => {
   );
 };
 
-export default heroSection;
+export default Hero;
